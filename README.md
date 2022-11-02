@@ -5,8 +5,8 @@ un-zips it and saves any csv files that has more than 1 row to Google Drive.
 It will then add the name(s) of the file(s), link, and date added to a spreadsheet.  
 An email is sent to the user notifiy them of the downloaded file.
  
-If the archive only has file with the header rows in them, it will not save them 
-nor send and email notification.
+If the archive only has file with the header rows in them (i.e. no student testing data),
+it will not save them nor send and email notification.
  
 You will need to set up a daily export of either the Comprehensive Data File
 or the Combined Data File in the NWEA Data Export Scheduler. A daily trigger will need
